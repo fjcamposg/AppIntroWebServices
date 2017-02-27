@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		091308AD1E64BFE7006BE040 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 091308AC1E64BFE7006BE040 /* Podfile */; };
 		0995A1741E64B81200632D87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995A1731E64B81200632D87 /* AppDelegate.swift */; };
-		0995A1761E64B81200632D87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995A1751E64B81200632D87 /* ViewController.swift */; };
 		0995A1791E64B81200632D87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0995A1771E64B81200632D87 /* Main.storyboard */; };
 		0995A17B1E64B81200632D87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0995A17A1E64B81200632D87 /* Assets.xcassets */; };
 		0995A17E1E64B81200632D87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0995A17C1E64B81200632D87 /* LaunchScreen.storyboard */; };
 		0995A1891E64B81200632D87 /* AppIntroWebServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995A1881E64B81200632D87 /* AppIntroWebServicesTests.swift */; };
 		0995A1941E64B81200632D87 /* AppIntroWebServicesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995A1931E64B81200632D87 /* AppIntroWebServicesUITests.swift */; };
+		0995A1A21E64B92B00632D87 /* PrimerWebserviceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995A1A11E64B92B00632D87 /* PrimerWebserviceTableViewController.swift */; };
+		0995A1A41E64B97000632D87 /* WSPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995A1A31E64B97000632D87 /* WSPostModel.swift */; };
+		0995A1A61E64BA8C00632D87 /* UTILS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995A1A51E64BA8C00632D87 /* UTILS.swift */; };
+		33649B89A30A2C439071A293 /* Pods_AppIntroWebServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3845776E9C1418B1718D42 /* Pods_AppIntroWebServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		091308AC1E64BFE7006BE040 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		0995A1701E64B81200632D87 /* AppIntroWebServices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppIntroWebServices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0995A1731E64B81200632D87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0995A1751E64B81200632D87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0995A1781E64B81200632D87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0995A17A1E64B81200632D87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0995A17D1E64B81200632D87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,12 @@
 		0995A18F1E64B81200632D87 /* AppIntroWebServicesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppIntroWebServicesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0995A1931E64B81200632D87 /* AppIntroWebServicesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntroWebServicesUITests.swift; sourceTree = "<group>"; };
 		0995A1951E64B81200632D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0995A1A11E64B92B00632D87 /* PrimerWebserviceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrimerWebserviceTableViewController.swift; path = ../PrimerWebserviceTableViewController.swift; sourceTree = "<group>"; };
+		0995A1A31E64B97000632D87 /* WSPostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WSPostModel.swift; path = ../WSPostModel.swift; sourceTree = "<group>"; };
+		0995A1A51E64BA8C00632D87 /* UTILS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UTILS.swift; path = ../UTILS.swift; sourceTree = "<group>"; };
+		5E6163E203F83E01433704AE /* Pods-AppIntroWebServices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppIntroWebServices.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppIntroWebServices/Pods-AppIntroWebServices.debug.xcconfig"; sourceTree = "<group>"; };
+		F6B5A46D92879304E2ED6282 /* Pods-AppIntroWebServices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppIntroWebServices.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppIntroWebServices/Pods-AppIntroWebServices.release.xcconfig"; sourceTree = "<group>"; };
+		FA3845776E9C1418B1718D42 /* Pods_AppIntroWebServices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppIntroWebServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33649B89A30A2C439071A293 /* Pods_AppIntroWebServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +88,13 @@
 		0995A1671E64B81200632D87 = {
 			isa = PBXGroup;
 			children = (
+				091308AC1E64BFE7006BE040 /* Podfile */,
 				0995A1721E64B81200632D87 /* AppIntroWebServices */,
 				0995A1871E64B81200632D87 /* AppIntroWebServicesTests */,
 				0995A1921E64B81200632D87 /* AppIntroWebServicesUITests */,
 				0995A1711E64B81200632D87 /* Products */,
+				4C1A3E2F3EEE7FA078E9F22A /* Pods */,
+				50F4FBF835493C81AD8F0FCA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +111,10 @@
 		0995A1721E64B81200632D87 /* AppIntroWebServices */ = {
 			isa = PBXGroup;
 			children = (
+				0995A1A51E64BA8C00632D87 /* UTILS.swift */,
+				0995A1A11E64B92B00632D87 /* PrimerWebserviceTableViewController.swift */,
+				0995A1A31E64B97000632D87 /* WSPostModel.swift */,
 				0995A1731E64B81200632D87 /* AppDelegate.swift */,
-				0995A1751E64B81200632D87 /* ViewController.swift */,
 				0995A1771E64B81200632D87 /* Main.storyboard */,
 				0995A17A1E64B81200632D87 /* Assets.xcassets */,
 				0995A17C1E64B81200632D87 /* LaunchScreen.storyboard */,
@@ -125,6 +141,23 @@
 			path = AppIntroWebServicesUITests;
 			sourceTree = "<group>";
 		};
+		4C1A3E2F3EEE7FA078E9F22A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E6163E203F83E01433704AE /* Pods-AppIntroWebServices.debug.xcconfig */,
+				F6B5A46D92879304E2ED6282 /* Pods-AppIntroWebServices.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		50F4FBF835493C81AD8F0FCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA3845776E9C1418B1718D42 /* Pods_AppIntroWebServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0995A1981E64B81200632D87 /* Build configuration list for PBXNativeTarget "AppIntroWebServices" */;
 			buildPhases = (
+				78DF4A265ACC5EE17DD0B357 /* [CP] Check Pods Manifest.lock */,
 				0995A16C1E64B81200632D87 /* Sources */,
 				0995A16D1E64B81200632D87 /* Frameworks */,
 				0995A16E1E64B81200632D87 /* Resources */,
+				4CED8F6F635F3A659ACEC7D9 /* [CP] Embed Pods Frameworks */,
+				DCFB1CEA53BE6C6369D07755 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +270,7 @@
 			files = (
 				0995A17E1E64B81200632D87 /* LaunchScreen.storyboard in Resources */,
 				0995A17B1E64B81200632D87 /* Assets.xcassets in Resources */,
+				091308AD1E64BFE7006BE040 /* Podfile in Resources */,
 				0995A1791E64B81200632D87 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +291,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4CED8F6F635F3A659ACEC7D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppIntroWebServices/Pods-AppIntroWebServices-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78DF4A265ACC5EE17DD0B357 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DCFB1CEA53BE6C6369D07755 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppIntroWebServices/Pods-AppIntroWebServices-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0995A16C1E64B81200632D87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0995A1761E64B81200632D87 /* ViewController.swift in Sources */,
 				0995A1741E64B81200632D87 /* AppDelegate.swift in Sources */,
+				0995A1A21E64B92B00632D87 /* PrimerWebserviceTableViewController.swift in Sources */,
+				0995A1A41E64B97000632D87 /* WSPostModel.swift in Sources */,
+				0995A1A61E64BA8C00632D87 /* UTILS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +495,7 @@
 		};
 		0995A1991E64B81200632D87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E6163E203F83E01433704AE /* Pods-AppIntroWebServices.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AppIntroWebServices/Info.plist;
@@ -420,6 +508,7 @@
 		};
 		0995A19A1E64B81200632D87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6B5A46D92879304E2ED6282 /* Pods-AppIntroWebServices.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AppIntroWebServices/Info.plist;
@@ -503,6 +592,7 @@
 				0995A19A1E64B81200632D87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0995A19B1E64B81200632D87 /* Build configuration list for PBXNativeTarget "AppIntroWebServicesTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +601,7 @@
 				0995A19D1E64B81200632D87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0995A19E1E64B81200632D87 /* Build configuration list for PBXNativeTarget "AppIntroWebServicesUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +610,7 @@
 				0995A1A01E64B81200632D87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
