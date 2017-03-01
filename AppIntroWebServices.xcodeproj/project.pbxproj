@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		091308AD1E64BFE7006BE040 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 091308AC1E64BFE7006BE040 /* Podfile */; };
+		091308AF1E64C8DD006BE040 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091308AE1E64C8DD006BE040 /* SwiftyJSON.framework */; };
+		091308B31E64C939006BE040 /* WSParserDataUno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091308B21E64C939006BE040 /* WSParserDataUno.swift */; };
 		0995A1741E64B81200632D87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995A1731E64B81200632D87 /* AppDelegate.swift */; };
 		0995A1791E64B81200632D87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0995A1771E64B81200632D87 /* Main.storyboard */; };
 		0995A17B1E64B81200632D87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0995A17A1E64B81200632D87 /* Assets.xcassets */; };
@@ -17,6 +19,16 @@
 		0995A1A21E64B92B00632D87 /* PrimerWebserviceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995A1A11E64B92B00632D87 /* PrimerWebserviceTableViewController.swift */; };
 		0995A1A41E64B97000632D87 /* WSPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995A1A31E64B97000632D87 /* WSPostModel.swift */; };
 		0995A1A61E64BA8C00632D87 /* UTILS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995A1A51E64BA8C00632D87 /* UTILS.swift */; };
+		09DA139E1E67486000768C66 /* WSDatosCustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA139D1E67486000768C66 /* WSDatosCustomCellTableViewCell.swift */; };
+		09DA13A01E67488500768C66 /* APIManagerDAta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA139F1E67488500768C66 /* APIManagerDAta.swift */; };
+		09DA13A21E67546B00768C66 /* WSParserDataUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA13A11E67546B00768C66 /* WSParserDataUsers.swift */; };
+		09DA13A61E67557600768C66 /* WSPostModelUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA13A51E67557600768C66 /* WSPostModelUsers.swift */; };
+		09DA13A81E67563E00768C66 /* WSDireccionesUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA13A71E67563E00768C66 /* WSDireccionesUsers.swift */; };
+		09DA13AA1E6756A500768C66 /* WSGeoUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA13A91E6756A500768C66 /* WSGeoUsers.swift */; };
+		09DA13AC1E67581300768C66 /* WSCompanyUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA13AB1E67581300768C66 /* WSCompanyUsers.swift */; };
+		09DA13AE1E67658000768C66 /* WSListaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA13AD1E67658000768C66 /* WSListaTableViewController.swift */; };
+		09DA13B01E6765A800768C66 /* WSUserCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA13AF1E6765A800768C66 /* WSUserCustomCell.swift */; };
+		09DA13B21E676B4000768C66 /* MapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DA13B11E676B4000768C66 /* MapaViewController.swift */; };
 		33649B89A30A2C439071A293 /* Pods_AppIntroWebServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3845776E9C1418B1718D42 /* Pods_AppIntroWebServices.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +51,8 @@
 
 /* Begin PBXFileReference section */
 		091308AC1E64BFE7006BE040 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		091308AE1E64C8DD006BE040 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../../../../Users/cice/Library/Developer/Xcode/DerivedData/AppIntroWebServices-dhkygpzytyagqqeabfkweoxmxfyz/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		091308B21E64C939006BE040 /* WSParserDataUno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSParserDataUno.swift; sourceTree = "<group>"; };
 		0995A1701E64B81200632D87 /* AppIntroWebServices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppIntroWebServices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0995A1731E64B81200632D87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0995A1781E64B81200632D87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +68,16 @@
 		0995A1A11E64B92B00632D87 /* PrimerWebserviceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrimerWebserviceTableViewController.swift; path = ../PrimerWebserviceTableViewController.swift; sourceTree = "<group>"; };
 		0995A1A31E64B97000632D87 /* WSPostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WSPostModel.swift; path = ../WSPostModel.swift; sourceTree = "<group>"; };
 		0995A1A51E64BA8C00632D87 /* UTILS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UTILS.swift; path = ../UTILS.swift; sourceTree = "<group>"; };
+		09DA139D1E67486000768C66 /* WSDatosCustomCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSDatosCustomCellTableViewCell.swift; sourceTree = "<group>"; };
+		09DA139F1E67488500768C66 /* APIManagerDAta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManagerDAta.swift; sourceTree = "<group>"; };
+		09DA13A11E67546B00768C66 /* WSParserDataUsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSParserDataUsers.swift; sourceTree = "<group>"; };
+		09DA13A51E67557600768C66 /* WSPostModelUsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSPostModelUsers.swift; sourceTree = "<group>"; };
+		09DA13A71E67563E00768C66 /* WSDireccionesUsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSDireccionesUsers.swift; sourceTree = "<group>"; };
+		09DA13A91E6756A500768C66 /* WSGeoUsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSGeoUsers.swift; sourceTree = "<group>"; };
+		09DA13AB1E67581300768C66 /* WSCompanyUsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSCompanyUsers.swift; sourceTree = "<group>"; };
+		09DA13AD1E67658000768C66 /* WSListaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSListaTableViewController.swift; sourceTree = "<group>"; };
+		09DA13AF1E6765A800768C66 /* WSUserCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSUserCustomCell.swift; sourceTree = "<group>"; };
+		09DA13B11E676B4000768C66 /* MapaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapaViewController.swift; sourceTree = "<group>"; };
 		5E6163E203F83E01433704AE /* Pods-AppIntroWebServices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppIntroWebServices.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppIntroWebServices/Pods-AppIntroWebServices.debug.xcconfig"; sourceTree = "<group>"; };
 		F6B5A46D92879304E2ED6282 /* Pods-AppIntroWebServices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppIntroWebServices.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppIntroWebServices/Pods-AppIntroWebServices.release.xcconfig"; sourceTree = "<group>"; };
 		FA3845776E9C1418B1718D42 /* Pods_AppIntroWebServices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppIntroWebServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				091308AF1E64C8DD006BE040 /* SwiftyJSON.framework in Frameworks */,
 				33649B89A30A2C439071A293 /* Pods_AppIntroWebServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,6 +110,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		091308B01E64C90A006BE040 /* MODELOS */ = {
+			isa = PBXGroup;
+			children = (
+				0995A1A31E64B97000632D87 /* WSPostModel.swift */,
+				09DA13A51E67557600768C66 /* WSPostModelUsers.swift */,
+				09DA13AB1E67581300768C66 /* WSCompanyUsers.swift */,
+				09DA13A91E6756A500768C66 /* WSGeoUsers.swift */,
+				09DA13A71E67563E00768C66 /* WSDireccionesUsers.swift */,
+			);
+			name = MODELOS;
+			sourceTree = "<group>";
+		};
+		091308B11E64C919006BE040 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				0995A1A51E64BA8C00632D87 /* UTILS.swift */,
+				091308B21E64C939006BE040 /* WSParserDataUno.swift */,
+				09DA13A11E67546B00768C66 /* WSParserDataUsers.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
 		0995A1671E64B81200632D87 = {
 			isa = PBXGroup;
 			children = (
@@ -111,14 +158,19 @@
 		0995A1721E64B81200632D87 /* AppIntroWebServices */ = {
 			isa = PBXGroup;
 			children = (
-				0995A1A51E64BA8C00632D87 /* UTILS.swift */,
+				091308B11E64C919006BE040 /* API */,
 				0995A1A11E64B92B00632D87 /* PrimerWebserviceTableViewController.swift */,
-				0995A1A31E64B97000632D87 /* WSPostModel.swift */,
+				09DA13AD1E67658000768C66 /* WSListaTableViewController.swift */,
+				09DA13AF1E6765A800768C66 /* WSUserCustomCell.swift */,
+				09DA13B11E676B4000768C66 /* MapaViewController.swift */,
+				091308B01E64C90A006BE040 /* MODELOS */,
 				0995A1731E64B81200632D87 /* AppDelegate.swift */,
 				0995A1771E64B81200632D87 /* Main.storyboard */,
 				0995A17A1E64B81200632D87 /* Assets.xcassets */,
 				0995A17C1E64B81200632D87 /* LaunchScreen.storyboard */,
 				0995A17F1E64B81200632D87 /* Info.plist */,
+				09DA139D1E67486000768C66 /* WSDatosCustomCellTableViewCell.swift */,
+				09DA139F1E67488500768C66 /* APIManagerDAta.swift */,
 			);
 			path = AppIntroWebServices;
 			sourceTree = "<group>";
@@ -153,6 +205,7 @@
 		50F4FBF835493C81AD8F0FCA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				091308AE1E64C8DD006BE040 /* SwiftyJSON.framework */,
 				FA3845776E9C1418B1718D42 /* Pods_AppIntroWebServices.framework */,
 			);
 			name = Frameworks;
@@ -344,10 +397,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09DA139E1E67486000768C66 /* WSDatosCustomCellTableViewCell.swift in Sources */,
+				09DA13AE1E67658000768C66 /* WSListaTableViewController.swift in Sources */,
+				09DA13A81E67563E00768C66 /* WSDireccionesUsers.swift in Sources */,
+				09DA13B01E6765A800768C66 /* WSUserCustomCell.swift in Sources */,
 				0995A1741E64B81200632D87 /* AppDelegate.swift in Sources */,
+				09DA13A01E67488500768C66 /* APIManagerDAta.swift in Sources */,
+				09DA13A61E67557600768C66 /* WSPostModelUsers.swift in Sources */,
+				09DA13B21E676B4000768C66 /* MapaViewController.swift in Sources */,
 				0995A1A21E64B92B00632D87 /* PrimerWebserviceTableViewController.swift in Sources */,
 				0995A1A41E64B97000632D87 /* WSPostModel.swift in Sources */,
+				09DA13A21E67546B00768C66 /* WSParserDataUsers.swift in Sources */,
 				0995A1A61E64BA8C00632D87 /* UTILS.swift in Sources */,
+				091308B31E64C939006BE040 /* WSParserDataUno.swift in Sources */,
+				09DA13AC1E67581300768C66 /* WSCompanyUsers.swift in Sources */,
+				09DA13AA1E6756A500768C66 /* WSGeoUsers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

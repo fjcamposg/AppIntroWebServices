@@ -1,32 +1,37 @@
 //
-//  PrimerWebserviceTableViewController.swift
+//  WSListaTableViewController.swift
 //  AppIntroWebServices
 //
-//  Created by cice on 27/2/17.
+//  Created by cice on 1/3/17.
 //  Copyright © 2017 cice. All rights reserved.
 //
 
 import UIKit
 
-class PrimerWebserviceTableViewController: UITableViewController {
+class WSListaTableViewController: UITableViewController {
 
     
-    // VBLES locales
+    var arrayUsers : [WSPostModelUsers] = []
     
-    var arrayPosts : [WSPostModel] = []
+    
+    
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // MARK: - Alimentamos array con el singleton
-        
-        arrayPosts = APIManagerDAta.shared.getPostsApi()
+
         
         
-    
-    
+        arrayUsers = APIManagerDAta.shared.getUsersApi()
+        
+        
+        
+        // Uncomment the following line to preserve selection between presentations
+        // self.clearsSelectionOnViewWillAppear = false
+
+        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
     override func didReceiveMemoryWarning() {
@@ -43,24 +48,38 @@ class PrimerWebserviceTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return arrayPosts.count
+        return arrayUsers.count
     }
 
-    
+  
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let customCell = tableView.dequeueReusableCell(withIdentifier: "WSDatosCustomCell", for: indexPath) as! WSDatosCustomCellTableViewCell
+        let customUsercell = tableView.dequeueReusableCell(withIdentifier: "UserCustomCell", for: indexPath) as! WSUserCustomCell
 
-        let model = arrayPosts[indexPath.row]
+        let userModel = arrayUsers[indexPath.row]
         
-        customCell.miTituloLBL.text = model.titulo
-        customCell.miNumeroIdLBL.text = "\(model.id!)"
-        customCell.miIdUsuarioLBL.text = String(describing: model.userId!)
-        customCell.miCuerpoLBL.text = model.body
+        customUsercell.miId.text = "\(userModel.id!)"
+        customUsercell.miNombre.text = userModel.name
+        customUsercell.miUsername.text = userModel.username
+        customUsercell.miEmail.text = userModel.email
+        customUsercell.miCalle.text = userModel.address?.street
+        customUsercell.miNumero.text = userModel.address?.suite
+        customUsercell.miCiudad.text = userModel.address?.city
+        customUsercell.miCP.text = userModel.address?.zipcode
+        customUsercell.miLatitud.text = userModel.address?.geo?.lat
+        customUsercell.miLongitud.text = userModel.address?.geo?.lng
+        customUsercell.miTelefono.text = userModel.phone
+        customUsercell.miWeb.text = userModel.website
+        customUsercell.miNombreEmpresa.text = userModel.company?.name
+        customUsercell.miPromo.text = userModel.company?.catchPhrase
+        customUsercell.miBs.text = userModel.company?.bs
         
         
-        return customCell
+        
+        
+
+        return customUsercell
     }
-    
+
 
     /*
     // Override to support conditional editing of the table view.
