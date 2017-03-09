@@ -33,7 +33,9 @@ class WSUserCustomCell: UITableViewCell {
     
     @IBOutlet weak var miBs: UILabel!
     
+    @IBOutlet weak var botonMapa: UIButton!
     
+    @IBOutlet weak var botonWeb: UIButton!
     
     override func awakeFromNib() {
         super.awakeFromNib()

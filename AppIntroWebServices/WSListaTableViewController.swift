@@ -74,13 +74,39 @@ class WSListaTableViewController: UITableViewController {
         customUsercell.miBs.text = userModel.company?.bs
         
         
+        customUsercell.botonMapa.tag = indexPath.row
+        customUsercell.botonWeb.tag = indexPath.row
         
-        
+        customUsercell.botonMapa.addTarget(self, action: #selector(self.MostrarMapa(_ :)), for: .touchUpInside)
+        customUsercell.botonWeb.addTarget(self, action: #selector(self.MostrarWeb(_ :)), for: .touchUpInside)
 
         return customUsercell
     }
 
 
+
+    
+    func MostrarMapa(_ sender: UIButton){
+        print("mostrarMapa")
+        let MapaEnConcreto = self.storyboard?.instantiateViewController(withIdentifier: "MapaViewController") as! MapaViewController
+        MapaEnConcreto.latituddata = arrayUsers [sender.tag].address?.geo?.lat
+        MapaEnConcreto.longituddata = arrayUsers [sender.tag].address?.geo?.lng
+        MapaEnConcreto.codigoPostaldata = arrayUsers [sender.tag].address?.zipcode
+        
+        present(MapaEnConcreto, animated: true, completion: nil)
+        
+        
+    }
+    
+    func MostrarWeb(_ sender: UIButton){
+        print("mostrarWeb")
+        let miWeb = self.storyboard?.instantiateViewController(withIdentifier: "WebParaCeldaViewController") as! WebParaCeldaViewController
+        miWeb.miWebahora = arrayUsers [ sender.tag].website
+        present(miWeb, animated: true, completion: nil)
+        
+    }
+    
+    
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {

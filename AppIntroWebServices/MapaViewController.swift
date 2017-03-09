@@ -25,6 +25,8 @@ class MapaViewController: UIViewController {
         super.viewDidLoad()
 
         
+        
+        
         let latitud = Double(latituddata!)
         let longitud = Double(longituddata!)
         
@@ -34,6 +36,8 @@ class MapaViewController: UIViewController {
         annotation.coordinate = CLLocationCoordinate2D(latitude: latitud!, longitude: longitud!)
         annotation.title = direcciondata
         annotation.subtitle = codigoPostaldata
+        print(codigoPostaldata!)
+    
         MiMapa.addAnnotation(annotation)
         
         
@@ -55,5 +59,7 @@ class MapaViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+   
 
 }

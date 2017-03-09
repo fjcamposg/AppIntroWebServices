@@ -10,6 +10,7 @@
 		091308AD1E64BFE7006BE040 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 091308AC1E64BFE7006BE040 /* Podfile */; };
 		091308AF1E64C8DD006BE040 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091308AE1E64C8DD006BE040 /* SwiftyJSON.framework */; };
 		091308B31E64C939006BE040 /* WSParserDataUno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091308B21E64C939006BE040 /* WSParserDataUno.swift */; };
+		092AF09B1E71CECC00892CC4 /* WebParaCeldaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092AF09A1E71CECC00892CC4 /* WebParaCeldaViewController.swift */; };
 		0995A1741E64B81200632D87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0995A1731E64B81200632D87 /* AppDelegate.swift */; };
 		0995A1791E64B81200632D87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0995A1771E64B81200632D87 /* Main.storyboard */; };
 		0995A17B1E64B81200632D87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0995A17A1E64B81200632D87 /* Assets.xcassets */; };
@@ -53,6 +54,7 @@
 		091308AC1E64BFE7006BE040 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		091308AE1E64C8DD006BE040 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../../../../Users/cice/Library/Developer/Xcode/DerivedData/AppIntroWebServices-dhkygpzytyagqqeabfkweoxmxfyz/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		091308B21E64C939006BE040 /* WSParserDataUno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSParserDataUno.swift; sourceTree = "<group>"; };
+		092AF09A1E71CECC00892CC4 /* WebParaCeldaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebParaCeldaViewController.swift; sourceTree = "<group>"; };
 		0995A1701E64B81200632D87 /* AppIntroWebServices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppIntroWebServices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0995A1731E64B81200632D87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0995A1781E64B81200632D87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 				09DA13AD1E67658000768C66 /* WSListaTableViewController.swift */,
 				09DA13AF1E6765A800768C66 /* WSUserCustomCell.swift */,
 				09DA13B11E676B4000768C66 /* MapaViewController.swift */,
+				092AF09A1E71CECC00892CC4 /* WebParaCeldaViewController.swift */,
 				091308B01E64C90A006BE040 /* MODELOS */,
 				0995A1731E64B81200632D87 /* AppDelegate.swift */,
 				0995A1771E64B81200632D87 /* Main.storyboard */,
@@ -407,6 +410,7 @@
 				09DA13B21E676B4000768C66 /* MapaViewController.swift in Sources */,
 				0995A1A21E64B92B00632D87 /* PrimerWebserviceTableViewController.swift in Sources */,
 				0995A1A41E64B97000632D87 /* WSPostModel.swift in Sources */,
+				092AF09B1E71CECC00892CC4 /* WebParaCeldaViewController.swift in Sources */,
 				09DA13A21E67546B00768C66 /* WSParserDataUsers.swift in Sources */,
 				0995A1A61E64BA8C00632D87 /* UTILS.swift in Sources */,
 				091308B31E64C939006BE040 /* WSParserDataUno.swift in Sources */,
